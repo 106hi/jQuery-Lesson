@@ -2,6 +2,7 @@
   $(document).ready(function(){
     $("#element").height("270px");
     $("#element").width("100px");
+    $("#element").css("background-color","#00F");
 
     var result1 = $("#element").height();
     $("#result1").html(result1);
