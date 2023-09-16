@@ -1,6 +1,6 @@
 (function($){
   $(document).ready(function(){
-    $("#elem").focus(function(){
+    $("#elem").keypress(function(){
       $("#result").html(parseInt($("#result").html()) + 1);
     });
   });
