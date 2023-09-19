@@ -1,8 +1,8 @@
 (function($){
   $(document).ready(function(){
-    $("#element").hide();
+    // $("#element").hide();
     $("#btn").click(function(){
-      $("#element").fadeIn();
+      $("#element").slideUp();
     });
   });
 })(jQuery);
