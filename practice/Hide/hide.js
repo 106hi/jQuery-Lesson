@@ -1,7 +1,8 @@
 (function($){
   $(document).ready(function(){
+    $("#element").hide();
     $("#btn").click(function(){
-      $("#element").fadeOut();
+      $("#element").fadeIn();
     });
   });
 })(jQuery);
